@@ -22,15 +22,15 @@ int main(){
             }
         }
         
-        
-        else if (nums[i] + 1 == nums[i + 1]){
-            continue;
-        }
-        else if (i >= nums.size()){
+        else if (i >= nums.size() - 1){
             s += "->";
             s += to_string(nums[i]);
             answer.push_back(s);
         }
+        else if (nums[i] + 1 == nums[i + 1]){
+            continue;
+        }
+        
         else {    
             s += "->";
             s += to_string(nums[i]);
