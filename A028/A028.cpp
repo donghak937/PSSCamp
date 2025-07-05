@@ -58,4 +58,4 @@ int main(){
     if (isCarry) answer += "1";
     reverse(answer.begin(), answer.end());
     cout << answer;
-}
+} //다시 할 때는 문자열 그냥 0 넣어서 길이 맞추기
