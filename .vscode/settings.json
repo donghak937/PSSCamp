@@ -49,6 +49,11 @@
         "string": "cpp",
         "map": "cpp",
         "xtree": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp",
+        "xhash": "cpp",
+        "unordered_set": "cpp",
+        "list": "cpp"
     }
 }
