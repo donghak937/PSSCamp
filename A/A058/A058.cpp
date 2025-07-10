@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -13,3 +14,4 @@ public:
         return prev;
     }
 };
+*/
