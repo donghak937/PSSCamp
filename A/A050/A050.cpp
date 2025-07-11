@@ -11,7 +11,6 @@ int main() {
     cin >> input;
     for(int i = 0; i < input.size(); i++){
         int num = code.find(input[i]);
-        cout << num << endl;
         answer += code2[num];
     }
     cout << answer;
