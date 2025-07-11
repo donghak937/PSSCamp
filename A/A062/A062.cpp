@@ -18,4 +18,5 @@ int main() {
     if (total % 7 == 0){
         n = 6;
     }
+    cout << c[n];
 }
