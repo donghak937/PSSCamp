@@ -13,9 +13,9 @@ int main() {
     while (true){
         if (a.size() == 1) break;
         a.pop();
-        int tmp = a.front();
+        a.push(a.front());
         a.pop();
-        a.push(tmp);
+        
     }
 
     cout << a.front();
