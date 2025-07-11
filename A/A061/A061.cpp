@@ -12,7 +12,6 @@ int main() {
         cout << b << endl;
         b--;
         n = b % 26;
-        if (n == 0) n = 26;
         a += 'A' + n;
         b /= 26;
     } 
