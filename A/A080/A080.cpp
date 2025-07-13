@@ -1,4 +1,3 @@
-#include <string>
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -7,7 +6,6 @@ using namespace std;
   
 int main() {
     vector<int> nums = {2,2,1,1,1,2,2};
-    int max = *max_element(nums.begin(), nums.end());
     int N = nums.size() / 2;
     int answer = 0;
     for(int a : nums){
