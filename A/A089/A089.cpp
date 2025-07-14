@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
@@ -15,4 +16,4 @@ public:
         a->right = sortedArrayToBST(right);
         return a;
     }
-};
+};*/
