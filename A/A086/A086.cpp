@@ -26,7 +26,8 @@ int main() {
         return a.second < b.second;
     });
 
-    for (const auto& p : num) {
-        cout << p.first << " ";
+    for (int i = 0; i < num.size(); ++i) {
+        cout << num[i].first << " ";
+        if ((i + 1) % 10 == 0) cout << endl;
     }
 }
