@@ -12,7 +12,7 @@ bool coms(string a, string b){
         if (sumA == sumB){
             return a < b;
         }
-        return sumA > sumB;
+        return sumA < sumB;
     }
     return a.size() < b.size();
 
