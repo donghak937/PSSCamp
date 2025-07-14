@@ -55,6 +55,7 @@
         "xhash": "cpp",
         "unordered_set": "cpp",
         "list": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "bitset": "cpp"
     }
 }
