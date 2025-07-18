@@ -15,16 +15,11 @@ int main() {
         s = to_string(a);
         string s2 = s;
         reverse(s2.begin(), s2.end());
-
         int real = stoi(s2);
-
         real += a;
-
         s = to_string(real);
         s2 = s;
-
         reverse(s2.begin(), s2.end());
-
         for(int i = 0; i < s2.size(); i++){
             if (s[i] != s2[i]){
                 isOk = false;
@@ -33,6 +28,5 @@ int main() {
         }
         if (isOk) cout << "YES" <<endl;
         else cout << "NO" <<endl;
-
     }
 }
