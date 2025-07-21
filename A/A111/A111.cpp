@@ -10,18 +10,11 @@ int main() {
     for(int i = 0; i < N; i++){
         int how;
         cin >> how;
-        int tmp = 1;
-        int count = 0;
-        int half = 0;
-        while (count != how) {
-            tmp *= 2;
-            half++;
-            if (half == 2){
-                tmp += 1;
-                half = 0;
-            }
-            count++;
+        double people = 1;
+        for(int j = 1; j < how; j++){
+            people = (people + 0.5) * 2;
         }
-        cout << count << endl; 
+        
+        cout << (int)people << endl; 
     }
 }
