@@ -56,6 +56,8 @@
         "unordered_set": "cpp",
         "list": "cpp",
         "queue": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "set": "cpp",
+        "sstream": "cpp"
     }
 }
