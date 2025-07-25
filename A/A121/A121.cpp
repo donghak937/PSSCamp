@@ -37,6 +37,7 @@ int main() {
             else break;
         }
 
+        if (c.size() == 1) return 1;
         if (c.size() < min) min = c.size();
         
     }
