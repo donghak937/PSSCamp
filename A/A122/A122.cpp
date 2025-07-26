@@ -13,5 +13,5 @@ int main() {
         if (goal == s) return true;
         
     }
-    return false;    
+    return false;       
 }
