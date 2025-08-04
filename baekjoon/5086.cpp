@@ -3,17 +3,14 @@
 using namespace std;
 
 int main() {
-    int a, b;
-    int count = 0;
-    cin >> a >> b;
+    while(true){
+        int a, b;
+        cin >> a >> b;
 
-    for(int i = 1; i <= a; i++){
-        if (a % i == 0) count++;
-        if (count == b){
-            cout << i;
-            return 0;
-        }
+        if (a == 0 && b == 0) break;
+
+        if (b % a == 0) cout << "factor" << endl;
+        else if (a % b == 0) cout << "multiple" << endl;
+        else cout << "neither" << endl;
     }
-    cout << "0";
-    
 }
