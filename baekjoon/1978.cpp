@@ -17,11 +17,9 @@ int main() {
                     isOk = false;
                     cout << i;
                     break;
-                }
+                }   
             }
             if (isOk) count++;
-        }
-        
+        }   
     }
-    //cout << count;
 }
