@@ -19,7 +19,7 @@ int main() {
                     break;
                 }   
             }
-            if (isOk) count++;
+            if (isOk) count++; 
         }   
     }
 }
