@@ -16,7 +16,7 @@ int main() {
                 if (n % i == 0){
                     isOk = false; 
                     cout << i;
-                    break;
+                    break; 
                 }   
             }
             if (isOk) count++; 
