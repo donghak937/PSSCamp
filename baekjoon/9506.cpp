@@ -24,7 +24,7 @@ int main() {
             for(int i = 0; i < n.size() ; i++){
                 if (i == n.size() - 1) cout << n[i] << endl;
                 else cout << n[i] << " + "; 
-            }
+            } 
         }
     }
 }
