@@ -10,8 +10,7 @@ int main() {
         vector<int> n;
         cin >> a;
 
-        if (a == -1) break;
-        
+        if (a == -1) break; 
         for(int i = 1; i <= a / 2; i++){
             if (a % i == 0){
                 n.push_back(i);
