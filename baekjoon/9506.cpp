@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     while(true){
-        int a;
+        int a; 
         int total = 0;
         vector<int> n;
         cin >> a;
