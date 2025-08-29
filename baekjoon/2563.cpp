@@ -7,7 +7,7 @@ int main() {
     int a[101][101] = {0};
     cin >> N;
     for(int i = 0; i < N; i++){
-        int ver;
+        int ver; 
         int hor;
         cin >> hor >> ver;
         for (int j = ver; ver+10 > j; j++){
