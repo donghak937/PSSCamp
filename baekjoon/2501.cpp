@@ -11,7 +11,7 @@ int main() {
         if (a % i == 0) count++;
         if (count == b){
             cout << i;
-            return 0;
+            return 0; 
         }
     }
     cout << "0";
