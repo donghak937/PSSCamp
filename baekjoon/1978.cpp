@@ -18,7 +18,7 @@ int main() {
                     cout << i;
                     break;  
                 }   
-            }
+            } 
             if (isOk) count++; 
         }   
     }  
