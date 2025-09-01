@@ -10,7 +10,7 @@ int main() {
     
     int N;
     int B;
-    string total = "";
+    string total = ""; 
     cin >> B >> N;
 
     while (B != 0){
