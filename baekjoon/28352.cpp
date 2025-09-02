@@ -11,7 +11,6 @@ int main() {
         total *= i;
     }
 
-    
     total /= 60;
     total /= 60;
     total /= 24;
