@@ -3,9 +3,10 @@
 using namespace std;
 
 int main() {
-    float a, b, c;
-    cin >> a >> b >> c;
-    int total = ((a + 1) * (b + 1)) / (c + 1) - 1;
-    cout << total;
+    int n;
+    cin >> n;
 
+    if (n % 3 == 1) cout << "U";
+    else if (n % 3 == 2) cout << "O";
+    else cout << "S";
 }
