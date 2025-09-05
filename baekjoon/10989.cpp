@@ -1,17 +1,20 @@
 #include <iostream>
-#include <algorithm>
-#include <set>
 
 using namespace std;
 
 int main() {
+    int a[10001] ={0};
     int n;
-    set<int> a;
     cin >> n;
     for(int i = 0; i < n ; i++){
         int c;
         cin >> c;
-        a.insert(c);
+
+        a[c]++;
     }
-    for (int x : a) cout << x << "\n";
+    for (int i = 0; i < 10001; i++){
+        for(int j = 0; j < a[i]; j++){
+            cout << i << '\n';
+        }
+    }
 }
