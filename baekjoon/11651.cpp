@@ -19,7 +19,7 @@ int main() {
         return a.second < b.second;
     });
 
-    for (const auto &p : v) {
+    for (const auto &p : v) { 
         cout << p.first << " " << p.second << '\n';
     }
 
