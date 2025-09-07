@@ -20,7 +20,7 @@ int main() {
     });
 
     for (const auto &p : v) { 
-        cout << p.first << " " << p.second << '\n';
+        cout << p.first << " " << p.second << '\n'; 
     }
 
 }
