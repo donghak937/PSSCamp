@@ -4,13 +4,12 @@
 
 using namespace std;
 
+
 int main() {
 
-    ios::sync_with_stdio(false);
-	cin.tie(null);
     int n;
     int m;
-    vector<int> a;
+    vector<long long> a;
     vector<int> b;
     cin >> n;
     for(int i = 0; i < n; i++){
@@ -24,6 +23,13 @@ int main() {
         cin >> l;
         b.push_back(l);
     }
+
+    sort(a.begin(), a.end());
+
+    for(int i = 0; i < m; i++){
+        cout << upper_bound(a.begin(), a.end(), b[i]) - lower_bound(a.begin(), a.end(), b[i]) << ' ';
+    }
     
     
 }
+
