@@ -1,10 +1,10 @@
-#include <iostream>
+    #include <iostream>
 
-using namespace std;
+    using namespace std;
 
-int main() {
-    int a, b;
-    cin >> a >> b;
+    int main() {
+        int a, b;
+        cin >> a >> b;
 
-    cout << b - a << " " <<b;
-}
+        cout << b - a << " " <<b;
+    }
