@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int A, B, C, D;
     cin >> A >> B;
-    cin >> C >> D;
+    cin >> C >> D; 
 
     int time1 = A + C;
     int time2 = B + D;
