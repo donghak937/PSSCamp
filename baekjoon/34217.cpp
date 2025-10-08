@@ -7,7 +7,7 @@ int main() {
     cin >> C >> D;
 
     int time1 = A + C;
-    int time2 = B + D;
+    int time2 = B + D;  
  
     if (time1 < time2) cout << "Hanyang Univ." << endl;
     else if (time1 > time2) cout << "Yongdap" << endl;
