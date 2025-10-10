@@ -12,4 +12,4 @@ int main() {
     if (time1 < time2) cout << "Hanyang Univ." << endl;
     else if (time1 > time2) cout << "Yongdap" << endl;
     else cout << "Either" << endl;   
-}  
+}   
