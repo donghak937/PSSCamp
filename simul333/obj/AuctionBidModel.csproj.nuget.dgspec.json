@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dongh\\PSSCamp\\AuctionSim\\AuctionSim.csproj": {}
+    "C:\\Users\\dongh\\PSSCamp\\simul333\\AuctionBidModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dongh\\PSSCamp\\AuctionSim\\AuctionSim.csproj": {
+    "C:\\Users\\dongh\\PSSCamp\\simul333\\AuctionBidModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dongh\\PSSCamp\\AuctionSim\\AuctionSim.csproj",
-        "projectName": "AuctionSim",
-        "projectPath": "C:\\Users\\dongh\\PSSCamp\\AuctionSim\\AuctionSim.csproj",
+        "projectUniqueName": "C:\\Users\\dongh\\PSSCamp\\simul333\\AuctionBidModel.csproj",
+        "projectName": "AuctionBidModel",
+        "projectPath": "C:\\Users\\dongh\\PSSCamp\\simul333\\AuctionBidModel.csproj",
         "packagesPath": "C:\\Users\\dongh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dongh\\PSSCamp\\AuctionSim\\obj\\",
+        "outputPath": "C:\\Users\\dongh\\PSSCamp\\simul333\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dongh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -43,8 +43,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -56,30 +56,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

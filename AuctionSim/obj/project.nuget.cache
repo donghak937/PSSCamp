@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NFkWDwhAjaF8tYF3B1xZmN67VSJddDfOGqa9xvaP8oi9JWxnJnF6uSo4IsPc2V8vIBZPcliziC3UBXiULTaVaw==",
+  "dgSpecHash": "zqUsL6HFiog=",
   "success": true,
   "projectFilePath": "C:\\Users\\dongh\\PSSCamp\\AuctionSim\\AuctionSim.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dongh\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dongh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dongh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\dongh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
