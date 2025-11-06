@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    vector<string> a = { 
+    vector<string> a = {  
         "WBWBWBWB",
         "BWBWBWBW",
         "WBWBWBWB",
