@@ -16,7 +16,7 @@ int main() {
         "BWBWBWBW"
     };
 
-    vector<string> b = {
+    vector<string> b = { 
         "BWBWBWBW",
         "WBWBWBWB",
         "BWBWBWBW",
