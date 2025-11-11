@@ -49,7 +49,7 @@ namespace AuctionSim
         static double ReadDouble(string label, double min, double max)
         {
             while (true)
-            {
+            { 
                 Console.Write(label);
                 var s = Console.ReadLine();
                 if (double.TryParse(s, NumberStyles.Float, CultureInfo.InvariantCulture, out var v) && v >= min && v <= max)
