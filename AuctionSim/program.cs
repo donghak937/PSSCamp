@@ -50,7 +50,7 @@ namespace AuctionSim
         {
             while (true) 
             { 
-                Console.Write(label);
+                Console.Write(label); 
                 var s = Console.ReadLine();
                 if (double.TryParse(s, NumberStyles.Float, CultureInfo.InvariantCulture, out var v) && v >= min && v <= max)
                     return v;
