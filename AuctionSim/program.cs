@@ -44,7 +44,7 @@ namespace AuctionSim
                     return v;
                 Console.WriteLine("정수를 입력하세요 (0 이상).");
             }
-        }
+        }  
 
         static double ReadDouble(string label, double min, double max)
         {
