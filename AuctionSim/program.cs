@@ -47,7 +47,7 @@ namespace AuctionSim
         }  
 
         static double ReadDouble(string label, double min, double max)
-        {
+        {  
             while (true) 
             { 
                 Console.Write(label); 
