@@ -32,7 +32,7 @@ namespace AuctionSim
             {
                 Console.WriteLine($"{e.Round,5} | {e.Tick,4} | {e.T,4:0.#} | {e.Prob*100,8:0.000}% | {e.U,6:0.0000} | {e.NewPrice,19:N0}");
             }
-        }
+        }  
 
         static int ReadInt(string label)
         {
