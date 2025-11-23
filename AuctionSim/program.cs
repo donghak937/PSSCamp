@@ -42,7 +42,7 @@ namespace AuctionSim
                 var s = Console.ReadLine();
                 if (int.TryParse(s, NumberStyles.Integer, CultureInfo.InvariantCulture, out var v) && v >= 0)
                     return v;
-                Console.WriteLine("정수를 입력하세요 (0 이상).");
+                Console.WriteLine("정수를 입력하세요 (0 이상)."); //정수
             }
         }  
 
