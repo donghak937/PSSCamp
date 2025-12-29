@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuctionGame2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e48cd87434f6b0bab8961fcae630e77a0e65df19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40fcc61cf0a2ca720a5413255647b023fbcfb525")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuctionGame2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuctionGame2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
