@@ -8,6 +8,7 @@ int graph[1001][1001];
 int n, v, point;
 
 void dfs(int point);
+void bfs(int point);
 
  
 int main() {
@@ -25,7 +26,7 @@ int main() {
     }
 
     dfs(point);
-    //bfs(point);
+    bfs(point);
 
 }
 
@@ -58,7 +59,18 @@ void bfs(int point){
 
     s.push(point);
     while (!s.empty()) {
-        c
+        int a = s.front();
+        s.pop();
+        if (visit[a] == 1) continue;
+        else cout << a << " ";
+        visit[a] = 1;
+
+        for(int i = 1; i <= n; i++){
+            if (graph[a][i] == 1 && visit[i] == 0){
+                s.push(i);
+            }
+        }
+
     }
-    cout << '\n';
+
 }
