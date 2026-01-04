@@ -8,6 +8,7 @@ int graph[1001][1001];
 int n, v, point;
 
 void dfs(int point);
+
  
 int main() {
     
@@ -57,7 +58,7 @@ void bfs(int point){
 
     s.push(point);
     while (!s.empty()) {
-
+        c
     }
     cout << '\n';
 }
