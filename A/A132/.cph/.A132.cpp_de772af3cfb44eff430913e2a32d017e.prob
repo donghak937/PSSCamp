@@ -1,1 +1,0 @@
-{"name":"Local: A132","url":"c:\\Users\\dongh\\Programing_Folders\\PSSCamp\\A\\A132\\A132.cpp","tests":[{"id":1767935453828,"input":"3\n0 0 13 40 0 37\n0 0 3 0 7 4\n1 1 1 1 1 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dongh\\Programing_Folders\\PSSCamp\\A\\A132\\A132.cpp","group":"local","local":true}
