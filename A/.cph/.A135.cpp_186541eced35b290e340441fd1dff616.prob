@@ -1,0 +1,1 @@
+{"name":"Local: A135","url":"c:\\Users\\dongh\\Programing_Folders\\PSSCamp\\A\\A135.cpp","tests":[{"id":1768259534532,"input":"9\ntable\nchair\ntable\ntable\nlamp\ndoor\nlamp\ntable\nchair","output":"table"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dongh\\Programing_Folders\\PSSCamp\\A\\A135.cpp","group":"local","local":true}
