@@ -5,6 +5,8 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
 
     long long k, n;
     vector<long long> len; 
@@ -20,7 +22,7 @@ int main() {
         if (a > hi) hi = a;
     }
 
-    long long lo = 1;
+    long long lo = 0;
     long long ans = 0;
     
     while (lo <= hi) {
@@ -28,8 +30,9 @@ int main() {
 
         long long pieces = 0;
         for (int i = 0; i < k; i++) {
-            if (len[i] - mid < 0) continue;
-            else pieces += len[i] - mid;
+            if (len[i] - mid > 0) {
+                pieces += len[i] - mid;
+            }
         }
 
         if (pieces >= n) {      
