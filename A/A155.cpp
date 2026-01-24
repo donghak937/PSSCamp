@@ -5,13 +5,16 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
     long long k, n;
-    vector<int> len; 
+    vector<long long> len; 
 
     cin >> k >> n;
-    long long hi;
+    long long hi = 0;
 
-    for(int i = 0; i < n; i ++){
+    for(int i = 0; i < k; i ++){
         long long a;
         cin >> a;
         len.push_back(a);
@@ -20,8 +23,7 @@ int main() {
     }
 
     long long lo = 1;
-    long long ans;
-
+    long long ans = 0;
     
     while (lo <= hi) {
         long long mid = (lo + hi) / 2;
@@ -39,7 +41,5 @@ int main() {
         }
     }
     cout << ans << "\n";
-
-    
 
 }
