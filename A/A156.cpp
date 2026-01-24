@@ -28,13 +28,15 @@ int main() {
 
         long long pieces = 0;
         for (int i = 0; i < k; i++) {
-            pieces += len[i] / mid;
+            if (len[i] - mid < 0) continue;
+            else pieces += len[i] - mid;
         }
 
         if (pieces >= n) {      
             ans = mid;
             lo = mid + 1;
-        } else {                
+        } 
+        else {                
             hi = mid - 1;
         }
     }
