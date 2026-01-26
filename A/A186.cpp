@@ -21,7 +21,7 @@ int main(){
     cout << "D";
   }
   else{
-    cout << "F";
+    cout << "F";      
   }      
    
 } 
