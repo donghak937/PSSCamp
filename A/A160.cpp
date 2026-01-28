@@ -7,15 +7,15 @@ using namespace std;
 
 
 int main() {
-    int n = 8, m = 4; 
-    vector<int> section = {2, 3, 6};
+    int n = 5, m = 2; 
+    vector<int> section = {1, 4, 5};
     int answer = 0;
-    int current = section[0];
+    int current = 0;
 
     for(int i = 0; i < section.size(); i++){
-        if (current > section[i]) continue;
+        if (current >= section[i]) continue;
         else{
-            current += m - 1;
+            current = section[i] + m - 1;
             answer++;
         }
     }
