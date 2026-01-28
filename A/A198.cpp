@@ -40,5 +40,4 @@ int main() {
 
     long long ramen = total - best * (long long)C;
     cout << ramen << "\n";
-    return 0;
 }
