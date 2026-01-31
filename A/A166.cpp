@@ -12,7 +12,7 @@ int solution(string t, string p) {
             for (int j = i; j < p.size() + i; j++) {
                 b += t[j];
             }
-            if (stoul(b) <= stoul(p)) answer++;
+            if (stoull(b) <= stoull(p)) answer++;
             b = "";
         }
     }
